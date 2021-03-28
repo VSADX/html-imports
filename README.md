@@ -10,6 +10,10 @@ The JavaScript library will grab all `<link>` element that include `rel="text/ht
 Then it downloads the content from the page at the link. Finally, it replaces your 
 `<link>` using the HTML or CSS downloaded.  
   
+## Live CDN link
+```html
+<script src="https://cdn.jsdelivr.net/gh/VSADX/html-imports@main/html-imports.js" type="module"></script>  
+  
 ## Examples
 ### The basics
 1. Here's how you use HTML imports, there are just two files here (`header.html`, `about-us.html`).
