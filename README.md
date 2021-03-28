@@ -13,6 +13,7 @@ Then it downloads the content from the page at the link. Finally, it replaces yo
 ## Live CDN link
 ```html
 <script src="https://cdn.jsdelivr.net/gh/VSADX/html-imports@main/html-imports.js" type="module"></script>  
+```
   
 ## Examples
 ### The basics
