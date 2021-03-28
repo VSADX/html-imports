@@ -11,6 +11,10 @@ Then it downloads the content from the page at the link. Finally, it replaces yo
 `<link>` using the HTML or CSS downloaded.  
   
 ## Examples
+### The basics
+1. Here's how you use HTML imports, there are just two files here (`header.html`, `about-us.html`).
+2. `header.html` is going to get imported into `about-us.html`
+3. Your main page needs a normal `<body>` element, but don't put one in your mini-pages.
 > header.html
 ```html
 <header>
