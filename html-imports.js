@@ -5,7 +5,7 @@ export function html_imports(doc = document, optional_function = () => {}) {
     actions.push(fetch(link.href)
       .then(response => response.text())
       .then(textHTML => link.outerHTML = textHTML))
-      .then(() => optional_function(link))
+      .then(() => optional_function ? optional_function(link) : null)
   )
   Promise.all(actions)
 }
