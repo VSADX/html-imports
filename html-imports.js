@@ -5,6 +5,8 @@ export function html_imports(doc = document, optional_function = () => {}) {
     actions.push(fetch(link.href)
       .then(response => response.text())
       .then(textHTML => {
+        // must use innerHTMl + firstElementChild + replaceWith + const html 
+        // to make `html` the new element not the old `<link>` element
         link.innerHTML = textHTML 
         const html = link.firstElementChild
         link.replaceWith(html)
